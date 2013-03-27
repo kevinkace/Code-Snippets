@@ -1,2 +1,3 @@
 SnappySnippets
 ==============
+A collection of coding examples from my personal studies, interview questions, etc...
