@@ -3,7 +3,7 @@
 /**
  * Find which words in input dictionary are able to be made with input letters.
  *
- * @package    Snappy Snippets
+ * @package    Code Snippets
  * @subpackage PHP
  * @author     Kevin A. Cameron <kevin AT kacevisual DOT com>
  * @copyright  None
