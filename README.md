@@ -1,4 +1,4 @@
-SnappySnippets - v1.2.0
+SnappySnippets - v1.2.1
 =======================
 
 A collection of coding examples from my personal studies, interview questions, etc...
@@ -19,7 +19,7 @@ PHP CLASSES
    A class to check if a phrase is a palindrome.
    Ex.
    phrase: Taco cat ==> TRUE
-   phrase: burrito ==> FALSE
+   phrase: burrito dog ==> FALSE
 
 
 
@@ -35,6 +35,9 @@ v1.2.3
 
 REVISION HISTORY
 ================
+
+1.2.1
+Cleaned up the autoloader, php.ini, PalindromeCheck class, and output in the index files. Renamed dir 'htdocs' to 'www'.
 
 1.2.0
 New PHP class PalindromeCheck.

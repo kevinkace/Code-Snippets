@@ -1,6 +1,6 @@
 <?php
 
-define("ROOT", '/home/kcameron/www/code-snippets/');
+define("ROOT", '/mnt/sda6/PROJECTS/CODE/code-snippets/');
 define("PHP_CLASSES", 'php/classes/');
 define("EXT",'.php');
 
@@ -15,7 +15,7 @@ function __autoload($name) {
         require PathToClass($name);
     }
     else {
-        throw new Exception("Unable to load: $name\n");
+        throw new Exception("Unable to load: $name");
     }
 
 }

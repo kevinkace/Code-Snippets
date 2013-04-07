@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<?php
+<!--?php
 
 
 class PalindromeCheck
@@ -53,13 +53,14 @@ var_dump($palindrome->IsPalindrome());
 
 
 
-?>
+?-->
 
 
 
     <h1>Code Snippets</h1>
     <ul>
-        <li><a href="/dictionary-check/">Dictionary Check</a></li>
+        <li><a href="/dictionary-search/">Dictionary Search</a></li>
+        <li><a href="/palindrome-check/">Palindrome Check</a></li>
     </ul>
 
 </body>
