@@ -2,9 +2,9 @@
 
 require '/mnt/sda6/PROJECTS/CODE/code-snippets/www/inc/php/autoloader.php';
 
-$phrase = "Taco cdat";
+$phrase = "Taco cat";
 
-echo "Is '" . $phrase . "' a palindrome? ";
+echo "Is '" . $phrase . "' a palindrome?\n";
 
 try {
     $palObj = new PalindromeCheck($phrase);

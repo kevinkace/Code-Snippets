@@ -1,4 +1,4 @@
-SnappySnippets - v1.2.1
+SnappySnippets - v1.2.2
 =======================
 
 A collection of coding examples from my personal studies, interview questions, etc...
@@ -35,6 +35,9 @@ v1.2.3
 
 REVISION HISTORY
 ================
+
+1.2.2
+Replaced GetSubstring method with substr SPL function in PalindromeCheck.
 
 1.2.1
 Cleaned up the autoloader, php.ini, PalindromeCheck class, and output in the index files. Renamed dir 'htdocs' to 'www'.

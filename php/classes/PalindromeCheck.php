@@ -56,7 +56,8 @@ class PalindromeCheck
         $isPalindrome = TRUE;
         if (strlen($this->simplePhrase)>1) {
             if ($this->simplePhrase[0] == $this->simplePhrase[strlen($this->simplePhrase)-1]) {
-                $subPhrase = new PalindromeCheck($this->GetSubString());
+                // Create substring of original string minus first and last character.
+                $subPhrase = new PalindromeCheck(substr($this->simplePhrase, 1, strlen($this->simplePhrase)-2));
                 $isPalindrome = $subPhrase->IsPalindrome();
             }
             else {
@@ -64,19 +65,6 @@ class PalindromeCheck
             }
         }
         return $isPalindrome;
-    }
-
-
-    /**
-     * Will replace once I have internet and see what the SPL substring function is.
-     */
-    public function GetSubString()
-    {
-        $subString = " ";
-        for ($i=0; $i < (strlen($this->simplePhrase)-2); $i++) { 
-            $subString[$i] = $this->simplePhrase[$i+1];
-        }
-        return $subString;
     }
 
 }
