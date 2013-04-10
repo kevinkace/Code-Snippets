@@ -1,0 +1,20 @@
+a.linkInfo-file {
+    background: transparent no-repeat scroll 100% 4px;
+    padding: 4px 20px 0 0;
+    display: inline-block;
+}
+
+a.linkInfo-pdf {
+    background-image: url(/inc/img/lib/jquery/info-link/infoLink-pdf.gif);
+}
+a.linkInfo-docx {
+    background-image: url(/inc/img/lib/jquery/info-link/infoLink-docx.gif);
+}
+a.linkInfo-gif {
+    background-image: url(/inc/img/lib/jquery/info-link/infoLink-gif.gif);
+}
+a.linkInfo-ext {
+    text-decoration: none;
+    border: double 3px #444;
+    border-width: 0 0 3px;
+}

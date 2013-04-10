@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Hash Handler</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/inc/css/lib/normalize/normalize.css">
+        <link rel="stylesheet" href="/inc/css/lib/jquery/linkInfo.css">
+        <script src="/inc/js/lib/jquery/jquery-1.9.1.js"></script>
+    </head>
+    <body>
+
+        <h1>Info Link</h1>
+        <ul>
+            <li>
+                <a href="http://kacevisual.com/cv/KevinCameron-resume.docx">External docx</a>
+            </li>
+            <li>
+                <a href="/inc/img/lib/jquery/info-link/infoLink-gif.gif">Relative gif</a>
+            </li>
+            <li>
+                <a href="https://bitbucket.org/greydwarf/jquerydoc/downloads/jquery_ref.pdf">External pdf</a>
+            </li>
+        </ul>
+
+        <script src="/inc/js/lib/jquery/jquery-1.9.1.js"></script>
+        <script src="/inc/js/lib/jquery/plugins/linkInfo.js"></script>
+
+        <script>
+            $('a').linkInfo();
+        </script>
+
+    </body>
+</html>

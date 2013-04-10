@@ -5,10 +5,10 @@
  *
  * @package    Code Snippets
  * @subpackage PHP
- * @author     Kevin A. Cameron <kevin AT kacevisual.DOT com>
+ * @author     Kevin A. Cameron <kevin AT kacevisual DOT com>
  * @copyright  None
  * @license    None
- * @version    1.0
+ * @version    1.1
  * @link       http://kacevisual.com
  * @since      Class available since release 1.01
  */
